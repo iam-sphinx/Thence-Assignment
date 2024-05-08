@@ -12,14 +12,12 @@ const RegisterForm = () => {
     register,
     handleSubmit,
     formState: { errors },
-    setError,
   } = useForm<FormData>({
     resolver: zodResolver(UserSchema),
   });
 
   const onSubmit = async (data: FormData) => {
     console.log("SUCCESS", data);
-
     navigate("/register/success");
   };
 
