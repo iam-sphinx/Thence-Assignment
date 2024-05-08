@@ -13,7 +13,7 @@ const FAQSection = () => {
               Ask Questions
             </h1>
           </div>
-          <img src="/union.svg" alt="not found" />
+          <img src="/Union.svg" alt="not found" />
         </div>
         <FAQCard />
       </div>
