@@ -31,11 +31,11 @@ const FAQItem = ({ question, answer, ...props }: props) => {
         )}
       </div>
       {isSelected && (
-        <p className="font-manrope font-normal text-[0.9375rem] leading-6 text-[#617275] my-6 px-0 sm:px-2">
+        <p className="font-manrope font-normal text-[0.9375rem] leading-6 text-[#617275] my-6 sm:px-0 px-2">
           {answer}
         </p>
       )}
-      <div className="border-[#D7D7D7] border my-6"></div>
+      <div className="border-[#D7D7D7] border my-6 sm:mx-0 mx-2 "></div>
     </div>
   );
 };
