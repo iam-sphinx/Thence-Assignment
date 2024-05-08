@@ -27,7 +27,7 @@ const Button = ({
   return (
     <button
       className={cn(
-        "rounded-full py-2 px-4 font-manrope font-semibold  text-xl text-center",
+        "rounded-full p-1 sm:py-2 sm:px-4 font-manrope font-semibold  sm:text-xl text-base text-center",
         variantStyles[variant], // Apply variant specific styles
         className
       )}

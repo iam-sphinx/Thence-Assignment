@@ -24,7 +24,7 @@ const RegisterForm = () => {
   return (
     <form
       onSubmit={handleSubmit(onSubmit)}
-      className="w-[26.0625rem] mx-auto mt-[3.875rem] mb-[5.4238rem]"
+      className="sm:w-[26.0625rem] mx-auto mt-[3.875rem] mb-[5.4238rem]"
     >
       <FormField
         type="email"
@@ -54,7 +54,10 @@ const RegisterForm = () => {
         </span>
       )}
 
-      <Button type="submit" className="w-full py-[1.6319rem] mt-[2.9375rem]">
+      <Button
+        type="submit"
+        className="w-full sm:py-[1.6319rem] py-[1.6319rem] mt-[2.9375rem]"
+      >
         Submit
       </Button>
     </form>

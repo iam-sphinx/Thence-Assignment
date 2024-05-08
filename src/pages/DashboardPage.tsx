@@ -5,7 +5,7 @@ import HeroSection from "../components/dashboard/HeroSection";
 
 const DashboardPage = () => {
   return (
-    <main className="min-h-screen bg-white/80 p-6 flex flex-col flex-1">
+    <main className="min-h-screen bg-white/80 sm:p-6 p-2 flex flex-col flex-1">
       <Navbar />
       <HeroSection />
       <FAQSection/>

@@ -22,12 +22,12 @@ const RegisterSuccessPage = () => {
 
   return (
     <main className="min-h-screen bg-white/80 p-6 flex flex-col flex-1">
-      <div className="px-[3.25rem] h-16 flex items-center">
+      <div className="sm:px-[3.25rem] sm:h-16 h-10 flex items-center">
         <img src="/logo.svg" alt="Logo" />
       </div>
       <div className="flex-1 flex items-center justify-center">
-        <div className="w-[44.875rem] min-h-[22.3125rem] bg-white">
-          <div className="size-20 mx-auto mb-[2.5625rem]">
+        <div className="sm:w-[44.875rem] sm:min-h-[22.3125rem] bg-white">
+          <div className="sm:size-20 size-16 mx-auto mb-[2.5625rem]">
             <img
               src="/success.svg"
               alt="Success"
@@ -35,13 +35,13 @@ const RegisterSuccessPage = () => {
             />
           </div>
           <div className="flex flex-col items-center">
-            <span className="font-grace font-normal text-[2.25rem] leading-[2.475rem] tracking-[-2%] text-[#2DA950] mb-4">
+            <span className="font-grace font-normal sm:text-[2.25rem] sm:leading-[2.475rem] text-2xl tracking-[-2%] text-[#2DA950] mb-4">
               Success Submitted
             </span>
-            <h1 className="font-manrope font-semibold text-[3.5rem] leading-[4.2rem] tracking-[-2%] text-center text-[#1C1C1C] mb-5">
+            <h1 className="font-manrope font-semibold sm:text-[3.5rem] sm:leading-[4.2rem] text-5xl tracking-[-2%] text-center text-[#1C1C1C] mb-5">
               Congratulations
             </h1>
-            <p className="font-manrope font-medium text-[1.6875rem] leading-[2.1938rem] text-center text-[#727272]">
+            <p className="font-manrope font-medium sm:text-[1.6875rem] sm:leading-[2.1938rem] text-base text-center text-[#727272]">
               Your request has been successfully submitted to us. We will
               validate your information and reach out to you shortly with
               updates.
@@ -50,7 +50,7 @@ const RegisterSuccessPage = () => {
         </div>
       </div>
 
-      <h1 className="text-center font-manrope font-normal text-[1.25rem] leading-[1.625rem] text-[#727272]">
+      <h1 className="text-center font-manrope font-normal sm:text-[1.25rem] sm:leading-[1.625rem] text-base text-[#727272]">
         Redirecting you to Homepage in{" "}
         <span className="font-bold text-[#1C1C1C]">{timer} Seconds</span>
       </h1>

@@ -10,8 +10,8 @@ const FAQItem = ({ question, answer, ...props }: props) => {
 
   return (
     <div {...props}>
-      <div className="flex justify-between gap-[9.125rem]">
-        <h1 className="font-manrope font-semibold text-xl text-[#1C1C1C]">
+      <div className="flex justify-between sm:gap-[9.125rem] sm:px-0 px-2">
+        <h1 className="font-manrope font-semibold text-xl text-[#1C1C1C] ">
           {question}
         </h1>
         {isSelected ? (
@@ -31,7 +31,7 @@ const FAQItem = ({ question, answer, ...props }: props) => {
         )}
       </div>
       {isSelected && (
-        <p className="font-manrope font-normal text-[0.9375rem] leading-6 text-[#617275] my-6">
+        <p className="font-manrope font-normal text-[0.9375rem] leading-6 text-[#617275] my-6 px-0 sm:px-2">
           {answer}
         </p>
       )}

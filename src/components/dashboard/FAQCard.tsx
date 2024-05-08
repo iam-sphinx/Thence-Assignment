@@ -9,7 +9,7 @@ interface props extends HTMLAttributes<HTMLDivElement> {
 
 const FAQCard = ({ className, ...props }: props) => {
   return (
-    <div {...props} className={cn("w-[36.3125rem] mt-[3.5625rem]", className)}>
+    <div {...props} className={cn("sm:w-[36.3125rem] mt-[3.5625rem]", className)}>
       {faq?.map((item, idx) => {
         return <FAQItem key={idx} {...item} />;
       })}
